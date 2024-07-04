@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Course
 {
@@ -25,23 +26,23 @@ namespace Course
             object obj1 = "Alex Brown";
             object obj2 = 4.5f;
 
-            Console.WriteLine(n1);
-            Console.WriteLine(n2);
-            Console.WriteLine(n3);
-            Console.WriteLine(n4);
-            Console.WriteLine(separation);
-            Console.WriteLine(completo);
-            Console.WriteLine(genero);
-            Console.WriteLine(letra);
-            Console.WriteLine(n5);
-            Console.WriteLine(n6);
-            Console.WriteLine(nome);
+            //Console.WriteLine(n1);
+            //Console.WriteLine(n2);
+            //Console.WriteLine(n3);
+            //Console.WriteLine(n4);
+            //Console.WriteLine(separation);
+            //Console.WriteLine(completo);
+            //Console.WriteLine(genero);
+            //Console.WriteLine(letra);
+            //Console.WriteLine(n5);
+            //Console.WriteLine(n6);
+            //Console.WriteLine(nome);
 
-            Console.WriteLine(obj1);
-            Console.WriteLine(obj2);
+            //Console.WriteLine(obj1);
+            //Console.WriteLine(obj2);
 
 
-            Console.WriteLine(separation);
+            //Console.WriteLine(separation);
 
             int n8 = int.MinValue;
             int n9 = int.MaxValue;
@@ -50,11 +51,46 @@ namespace Course
             decimal n12 = decimal.MaxValue;
 
 
-            Console.WriteLine(n8);
-            Console.WriteLine(n9);
-            Console.WriteLine(n10);
-            Console.WriteLine(n11);
-            Console.WriteLine(n12);
+            //Console.WriteLine(n8);
+            //Console.WriteLine(n9);
+            //Console.WriteLine(n10);
+            //Console.WriteLine(n11);
+            //Console.WriteLine(n12);
+
+
+            //Console.WriteLine(separation);
+            int idade = 32;
+            double saldo = 2272.546323123;
+            string user = "Julia";
+
+
+            Console.WriteLine("{0} tem {1} anos e possui R${2}", user, idade, saldo.ToString("F2"));
+            Console.WriteLine("{0} tem {1} anos e possui R${2:F2}", user, idade, saldo);
+
+            Console.WriteLine($"{user} tem {idade} anos e possui o saldo de R${saldo:F2}");
+
+            Console.WriteLine(user + " tem " + idade + " anos e possui o saldo de R$" + saldo.ToString("F2"));
+
+
+
+
+            // Console.Write("Bom dia");
+            // Console.WriteLine("Boa Tarde");
+            // Console.WriteLine("Boa noite");
+
+            // Console.WriteLine(separation);
+
+            // Console.WriteLine(generoPessoa);
+            // Console.WriteLine(idade);
+            // Console.WriteLine(saldo);
+            // Console.WriteLine(user);
+
+            // Console.WriteLine(saldo.ToString("F2"));
+            // Console.WriteLine(saldo.ToString("F4"));
+            //Console.WriteLine(saldo.ToString("F2", CultureInfo.InvariantCulture));
+
+
         }
+
     }
 }
