@@ -50,7 +50,7 @@ namespace Operators
 
             double x1 = (-y + Math.Sqrt(delta) ) / (2.0 * x);
             double x2 = (-y - Math.Sqrt(delta)) / (2.0 * x);
-
+            
 
             Console.WriteLine(delta);
 

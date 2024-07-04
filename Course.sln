@@ -5,9 +5,11 @@ VisualStudioVersion = 17.10.35013.160
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course", "Course\Course.csproj", "{518CE2A9-6016-41EA-B10D-05003C13113F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioFixacao", "ExercicioFixacao\ExercicioFixacao.csproj", "{A8A92FDD-B632-461E-A633-463A2588F7EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioFixacao", "ExercicioFixacao\ExercicioFixacao.csproj", "{A8A92FDD-B632-461E-A633-463A2588F7EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operadores", "Operadores\Operadores.csproj", "{81699989-D938-45FC-9D04-91CE276ECCA2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operadores", "Operadores\Operadores.csproj", "{81699989-D938-45FC-9D04-91CE276ECCA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntradaDeDados", "EntradaDeDados\EntradaDeDados.csproj", "{FD02C93F-2FC1-4DF3-81BE-4F00723F5ED7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{81699989-D938-45FC-9D04-91CE276ECCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81699989-D938-45FC-9D04-91CE276ECCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81699989-D938-45FC-9D04-91CE276ECCA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD02C93F-2FC1-4DF3-81BE-4F00723F5ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD02C93F-2FC1-4DF3-81BE-4F00723F5ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD02C93F-2FC1-4DF3-81BE-4F00723F5ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD02C93F-2FC1-4DF3-81BE-4F00723F5ED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
