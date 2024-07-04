@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Course", "Course\Course.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioFixacao", "ExercicioFixacao\ExercicioFixacao.csproj", "{A8A92FDD-B632-461E-A633-463A2588F7EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operadores", "Operadores\Operadores.csproj", "{81699989-D938-45FC-9D04-91CE276ECCA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A8A92FDD-B632-461E-A633-463A2588F7EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8A92FDD-B632-461E-A633-463A2588F7EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8A92FDD-B632-461E-A633-463A2588F7EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81699989-D938-45FC-9D04-91CE276ECCA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81699989-D938-45FC-9D04-91CE276ECCA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81699989-D938-45FC-9D04-91CE276ECCA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81699989-D938-45FC-9D04-91CE276ECCA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -64,12 +64,12 @@ namespace Course
             string user = "Julia";
 
 
-            Console.WriteLine("{0} tem {1} anos e possui R${2}", user, idade, saldo.ToString("F2"));
-            Console.WriteLine("{0} tem {1} anos e possui R${2:F2}", user, idade, saldo);
+            //Console.WriteLine("{0} tem {1} anos e possui R${2}", user, idade, saldo.ToString("F2"));
+            //Console.WriteLine("{0} tem {1} anos e possui R${2:F2}", user, idade, saldo);
 
-            Console.WriteLine($"{user} tem {idade} anos e possui o saldo de R${saldo:F2}");
+            //Console.WriteLine($"{user} tem {idade} anos e possui o saldo de R${saldo:F2}");
 
-            Console.WriteLine(user + " tem " + idade + " anos e possui o saldo de R$" + saldo.ToString("F2"));
+            //Console.WriteLine(user + " tem " + idade + " anos e possui o saldo de R$" + saldo.ToString("F2"));
 
 
 
@@ -88,6 +88,40 @@ namespace Course
             // Console.WriteLine(saldo.ToString("F2"));
             // Console.WriteLine(saldo.ToString("F4"));
             //Console.WriteLine(saldo.ToString("F2", CultureInfo.InvariantCulture));
+
+
+
+            //conversão implicita de tipos ex: passando de float para double
+            float x = 4.5f;
+
+            double y = x;
+
+            Console.WriteLine(y);
+
+            double a;
+            float b;
+
+            a = 5.1;
+            //fazendo o casting de double para float
+            b = (float)a;
+
+            Console.WriteLine(b);
+
+            double c;
+            int d;
+
+            c = 5.2;
+            //fazendo casting de double para int
+            d = (int)c;
+            Console.WriteLine(d);
+
+
+            int e = 5;
+            int f = 2;
+
+            double resultado = (double) e / f;
+
+            Console.WriteLine(resultado);
 
 
         }
