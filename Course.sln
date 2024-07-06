@@ -9,17 +9,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioFixacao", "Exercic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Operadores", "Operadores\Operadores.csproj", "{81699989-D938-45FC-9D04-91CE276ECCA2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntradaDeDados", "EntradaDeDados\EntradaDeDados.csproj", "{FD02C93F-2FC1-4DF3-81BE-4F00723F5ED7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EntradaDeDados", "EntradaDeDados\EntradaDeDados.csproj", "{FD02C93F-2FC1-4DF3-81BE-4F00723F5ED7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioFixacaoEntradaDeDados", "ExercicioFixacaoEntradaDeDados\ExercicioFixacaoEntradaDeDados.csproj", "{168C0F2A-0F1B-4313-9AE3-DBB796D4A072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioFixacaoEntradaDeDados", "ExercicioFixacaoEntradaDeDados\ExercicioFixacaoEntradaDeDados.csproj", "{168C0F2A-0F1B-4313-9AE3-DBB796D4A072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EstruturaSequencialEx1", "EstruturaSequencialEx1\EstruturaSequencialEx1.csproj", "{021BD3AE-B631-4646-8EC1-C17E84FA6E46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EstruturaSequencialEx1", "EstruturaSequencialEx1\EstruturaSequencialEx1.csproj", "{021BD3AE-B631-4646-8EC1-C17E84FA6E46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioSequencialEx2", "ExercicioSequencialEx2\ExercicioSequencialEx2.csproj", "{E823026A-DE12-4868-82BF-A92C723749BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioSequencialEx2", "ExercicioSequencialEx2\ExercicioSequencialEx2.csproj", "{E823026A-DE12-4868-82BF-A92C723749BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioSequencialEx3", "ExercicioSequencialEx3\ExercicioSequencialEx3.csproj", "{EB4518AB-9C90-455C-B35A-C5A2DEFFE12C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioSequencialEx3", "ExercicioSequencialEx3\ExercicioSequencialEx3.csproj", "{EB4518AB-9C90-455C-B35A-C5A2DEFFE12C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioSequencialEx4", "ExercicioSequencialEx4\ExercicioSequencialEx4.csproj", "{648A3E42-572F-4B48-BDDF-055101FC9CA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioSequencialEx4", "ExercicioSequencialEx4\ExercicioSequencialEx4.csproj", "{648A3E42-572F-4B48-BDDF-055101FC9CA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicoSequencial5", "ExercicoSequencial5\ExercicoSequencial5.csproj", "{762C680D-3AED-41C0-82EA-87EDEA87D0E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioSequencia6", "ExercicioSequencia6\ExercicioSequencia6.csproj", "{DA203973-39AE-4D2A-BE60-3C145963C64C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{648A3E42-572F-4B48-BDDF-055101FC9CA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{648A3E42-572F-4B48-BDDF-055101FC9CA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{648A3E42-572F-4B48-BDDF-055101FC9CA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{762C680D-3AED-41C0-82EA-87EDEA87D0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{762C680D-3AED-41C0-82EA-87EDEA87D0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{762C680D-3AED-41C0-82EA-87EDEA87D0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{762C680D-3AED-41C0-82EA-87EDEA87D0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA203973-39AE-4D2A-BE60-3C145963C64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA203973-39AE-4D2A-BE60-3C145963C64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA203973-39AE-4D2A-BE60-3C145963C64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA203973-39AE-4D2A-BE60-3C145963C64C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

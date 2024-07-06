@@ -11,13 +11,13 @@ namespace Exercicio4
             double priceByHour, salary;
             
             number = int.Parse(Console.ReadLine());
-            hours = int.Parse(Console.ReadLine());
+            hours = int.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             priceByHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
             salary = priceByHour * hours;
 
             Console.WriteLine($"NUMBER = {number}");
-            Console.WriteLine($"SALARY = U${number:f2}");
+            Console.WriteLine($"SALARY = U$ {salary:f2}");
 
 
         }
