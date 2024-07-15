@@ -17,7 +17,7 @@ namespace Exercicio4
             salary = priceByHour * hours;
 
             Console.WriteLine($"NUMBER = {number}");
-            Console.WriteLine($"SALARY = U${number:f2}");
+            Console.WriteLine($"SALARY = U$ {salary:f2}");
 
 
         }
