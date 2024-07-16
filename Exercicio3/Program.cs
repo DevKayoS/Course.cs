@@ -4,20 +4,21 @@
     {
         static void Main()
         {
-            int numA = int.Parse(Console.ReadLine());
-            int numB = int.Parse(Console.ReadLine());
+            Console.WriteLine("Insira dois valores:");
 
-            int resultado = 0;
+            string[] valores = Console.ReadLine().Split(' ');
+            
+            int a = int.Parse(valores[0]);
+            int b = int.Parse(valores[1]);
 
-            if(numA > numB)
+            if (a % b == 0 || b % a == 0)
             {
-                resultado = numA / numB;
+                Console.WriteLine("Sao multiplos");
 
-                if(resultado == 0)
-                {
-
-                }
-
+            }
+            else
+            {
+                Console.WriteLine("Nao sao multiplos");
             }
 
         }
