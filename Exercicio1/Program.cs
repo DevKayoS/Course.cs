@@ -1,23 +1,20 @@
 ﻿using System;
 
-namespace ExercicioCondicional1
+namespace Exercico1
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Digite um número inteiro");
-            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine("Insira a senha:");
+            string password = Console.ReadLine();
 
-
-            if (num >= 0)
+            while (password != "2002")
             {
-                Console.WriteLine("NÃO NEGATIVO");
-            } 
-            else
-            {
-                Console.WriteLine("NEGATIVO");
+                Console.WriteLine("Senha Invalida");
+                password = Console.ReadLine();
             }
+            Console.WriteLine("Acesso Permitido");
         }
     }
 }

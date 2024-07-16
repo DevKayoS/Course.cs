@@ -1,26 +1,42 @@
-﻿namespace Exercicio3
+﻿using System;
+
+namespace Exercicio3
 {
     class Program
     {
         static void Main()
         {
-            Console.WriteLine("Insira dois valores:");
+            int Alcool = 0;
+            int Gasolina = 0;
+            int Diesel = 0;
+            Console.WriteLine("Digite o codigo do produto e digite 4 qunado quiser finalizar a aplicação");
+            int code = int.Parse(Console.ReadLine());
 
-            string[] valores = Console.ReadLine().Split(' ');
-            
-            int a = int.Parse(valores[0]);
-            int b = int.Parse(valores[1]);
-
-            if (a % b == 0 || b % a == 0)
+            while (code != 4)
             {
-                Console.WriteLine("Sao multiplos");
+                if (code == 1)
+                {
+                    Alcool = Alcool + 1;
+                }
+                else if (code == 2)
+                {
+                    Gasolina = Gasolina + 1;
+                }
+                else if (code == 3)
+                {
+                    Diesel = Diesel + 1;
+                }
+
+                code = int.Parse(Console.ReadLine());
 
             }
-            else
-            {
-                Console.WriteLine("Nao sao multiplos");
-            }
+
+            Console.WriteLine("MUITO OBRIGADO!");
+            Console.WriteLine($"Alcool: {Alcool}");
+            Console.WriteLine($"Gasolina: {Gasolina}");
+            Console.WriteLine($"Diesel: {Diesel}");
 
         }
     }
+
 }

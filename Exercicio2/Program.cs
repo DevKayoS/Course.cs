@@ -6,17 +6,41 @@ namespace Exercicio2
     {
         static void Main()
         {
-            int num = int.Parse(Console.ReadLine());
+            Console.WriteLine("Escreva as coordenadas");
+            string[] cordenates = Console.ReadLine().Split(" ");
 
-            if(num % 2 == 0)
+            int coordX = int.Parse(cordenates[0]);
+            int coordY = int.Parse(cordenates[1]);
+
+            while (coordX != 0 || coordY != 0)
             {
-                Console.WriteLine("Par!");
-            } else
-            {
-                Console.WriteLine("Impar!");
+                if (coordX > 0 && coordY > 0)
+                {
+                    Console.WriteLine("primeiro");
+                }
+                else if (coordX < 0 && coordY > 0)
+                {
+                    Console.WriteLine("segundo");
+                }
+                else if (coordX < 0 && coordY < 0)
+                {
+                    Console.WriteLine("terceiro");
+                }
+                else if (coordX > 0 && coordY < 0)
+                {
+                    Console.WriteLine("quarto");
+                }
+
+
+                cordenates = Console.ReadLine().Split(" ");
+                coordX = int.Parse(cordenates[0]);
+                coordY = int.Parse(cordenates[1]);
+
             }
 
-        }
-    }
 
+        }
+
+
+    }
 }
